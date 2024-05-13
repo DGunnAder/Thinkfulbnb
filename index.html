@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacation Rentals & Unique Homes</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Lato&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Thinkfulbnb</div>
+    <button class="menu-toggle" aria-label="Toggle Menu">
+      <span class="burger"></span>
+    </button>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">Stay</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Ideas</a></li>
+        <li><a href="#">Host</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Stay -->
+    <section id="stay">
+      <h2>Find the perfect vacation rental</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="alternate-background">
+      <h2>About</h2>
+      <img src="images/vacation-rental-pool.png" alt="Thinkfulbnb - Vacation rental pool" />
+      <img src="images/vacation-rental-inside-stone.png" alt="Thinkfulbnb - Vacation rental inside stone" />
+      <p>Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod gravida neque.</p>
+    </section>
+
+    <!-- Ideas -->
+    <section id="ideas">
+      <h2>Ideas</h2>
+      <div class="image-container">
+        <h3>Forest retreats</h3>
+        <img src="images/forest-retreat.png" alt="Thinkfulbnb - Forest retreat" />
+      </div>
+      <div class="image-container">
+        <h3>Beaches</h3>
+        <img src="images/beach-house.png" alt="Thinkfulbnb - Beach house" />
+      </div>
+      <div class="image-container">
+        <h3>Rustic cabins</h3>
+        <img src="images/cabin.png" alt="Thinkfulbnb - Cabin" />
+      </div>
+      <div class="image-container">
+        <h3>Pet-friendly</h3>
+        <img src="images/pet-friendly.png" alt="Thinkfulbnb - Pet-friendly" />
+      </div>
+    </section>
+
+    <!-- Host -->
+    <section id="host" class="alternate-background">
+      <h2>Want to Become a Thinkfulbnb Host?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus. Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices libero rutrum vitae.</p>
+      <ul>
+        <li>Mauris in pellentesque ligula.</li>
+        <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+        <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+        <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
+        <li>Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget hendrerit mauris.</li>
+      </ul>
+      <img src="images/become-a-host.png" alt="Thinkfulbnb - Become a host" />
+    </section>
+  </main>
+
+  <footer>
+    <p>© Thinkful</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
